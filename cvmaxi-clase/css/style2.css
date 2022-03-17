@@ -1,0 +1,53 @@
+body{background-color:#B0C4DE;
+    color:#0a2850b7;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ramaraja', serif;
+}  
+
+.volver{
+    font-size: 25px;
+    font-weight: bold
+}
+
+.banner{background-image: url(/images/banner.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:2px solid black;
+    height: 600px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color:black;
+    text-decoration: underline
+    
+}
+
+.sobremi{ text-align: center;
+    font-size: 20px;
+}
+
+.motivaciones {
+    font-size: 35px;
+    text-decoration: underline;
+    color: black;
+}
+
+.listamotivar {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.redes{
+    text-align: center;
+    color: black;
+    word-spacing: 10em;
+}
