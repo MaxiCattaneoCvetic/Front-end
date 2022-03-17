@@ -4,7 +4,7 @@ body, h3 {background-color:#B0C4DE;
     font-family: 'Ramaraja', serif;
 }
 
-.banner {background-image: url(/cvmaxi-clase/images/banner.jpeg);
+.banner {background-image: url("../images/banner.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center left;
@@ -23,14 +23,14 @@ body, h3 {background-color:#B0C4DE;
 }
 
 
-.mifoto{ background-image: url(/cvmaxi-clase/images/fotopersonal.jpg);
+.mifoto{ background-image: url("../images/fotopersonal.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 30px;
     height: 300px;
-    width: 300px;
-
+    width: 300px; 
+}
 h1{
     font-weight: bold;
     font-size: 45px;
