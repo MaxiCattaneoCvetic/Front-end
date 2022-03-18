@@ -1,6 +1,13 @@
-header{
-    text-align: center;
+.imagen-batman {
+    background-image: url(../images/batman.png);
+    background-position: bottom center;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
 }
+
 
 h1{
     color: #005677;
@@ -10,6 +17,11 @@ h1{
     font-weight: bold;
     letter-spacing: 0.25em;
     text-align:center;
+}
+
+.espace {
+    border: 1px;
+    padding-bottom: 100px;
 }
 
 h2{
