@@ -1,83 +1,76 @@
-body, h3 {background-color:#B0C4DE;
-    color:#02142cb7;
-    font-family: 'Fira Sans', sans-serif;
-    font-family: 'Ramaraja', serif;
+body,
+h3 {
+  background-color: #b0c4de;
+  color: #02142cb7;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Ramaraja", serif;
 }
 
-.banner {background-image: url("../images/banner.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center left;
-    border-radius:2px;
-    height: 250px;
-    width: 100%;   
+.banner {
+  background-image: url("../images/banner.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 250px;
+  width: 100%;
 }
 
 .menuprincipal {
-    font-size: 23px;
-    text-align: center;
-    text-decoration:none;  /*VER XQ NO AFECTA */ 
+  font-size: 23px;
+  text-align: center;
+  text-decoration: none; /*VER XQ NO AFECTA */
 }
 
-.nombre {text-align: center;
+.nombre {
+  text-align: center;
 }
 
-
-.mifoto{ background-image: url("../images/fotopersonal.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 30px;
-    height: 300px;
-    width: 300px; 
+.mifoto {
+  background-image: url("../images/fotopersonal.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  width: 100%;
 }
-h1{
-    font-weight: bold;
-    font-size: 45px;
-    text-decoration: underline;
+
+h1 {
     color: black;
+  font-weight: bold;
+  font-size: 45px;
+  text-decoration: underline;
 }
 
-
-h2{
-    font-weight: bolder;
-    font-size: 35px;
-    text-align: center;
-    color:black;
-    background-color: rgba(255, 255, 255, 0.253);
-    
+h2 {
+  border: 2px solid black;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.253);
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: center;
 }
 
-
-
-h4{
-    text-decoration: underline;
-    font-size: 29px;
+h4 {
+  text-decoration: underline;
+  font-size: 29px;
 }
 
-h5{
-    font-size: 24px;
-    color: black;
+h5 {
+  font-size: 24px;
+  color: black;
 }
-
-
 
 .sobre {
-    text-align: center;
+  text-align: center;
 }
 
-
-li{
-    font-size: 20px ;
-    font-weight: bolder;
+li {
+  font-size: 20px;
+  font-weight: bolder;
 }
 
-
-
-
-.redes{
-    text-align: center;
-    color: black;
-    word-spacing: 10em;
+.redes {
+  text-align: center;
+  color: black;
+  word-spacing: 10em;
 }
-
