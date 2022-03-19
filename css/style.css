@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Ramaraja&family=Roboto:wght@300&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto';
+}
+
+header{
+    background-color: black;
+    color:white;
+    font-family:'Roboto';
+    font-weight: bold;
+    font-size: 13px;
+}
+
+header section.header-grandes {
+    text-align: left;
+}
+header section.header-derecha {
+    text-align: right;
+    
+}
+
+div.inicio {
+    background-color: #F0A83E;
+    color:black;
+    font-weight: bold;
+
+}
+
+#menu-inicio{
+    font-size: 15px;
+    text-align: right;
+}
+
+#menu-inicio ul li{ 
+    color:white;
+    display: inline-block; /*/ COMANDO PARA PONER UNO AL LADO DEL OTRO DENTRO DEL MENU */
+    text-decoration: none; /*/ POR QUE NO ME ANDA EN EL MENU!!!! */
+}
+
+/* ---------------------- IMAGEN DEL CENTRO----------------- */
+.placer{
+    background-image: url("../images/plato-grande.png");
+    border: 2px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    height: 408px;
+    width: 100%;
+}
+
+section.placer div {
+    margin-left: 50%;
+    margin-top: 15%;
+    margin-right: 100px;
+}
+
+div p.a{
+    font-size:25px; 
+}
+
+div p.b{
+    font-size: 18px;
+}
+
+.placer-boton{
+    background-color:#F0A83E;
+    font-size: 10px;
+    font-weight: 700;
+    border: 2px solid #F0A83E;
+    margin-right: 80px;
+    padding: 7px;
+
+}
+
+/* ---------------------- FIN DEL CENTRO----------------- */
+
+
+.producto_destacado{
+    text-align: center;
+    font-size: 40px;
+}
+
+.imagen-patita {
+    background-image: url("../images/patacentri.png");
+    background-repeat: no-repeat;
+    margin-left: 48%;
+    height: 100px;
+    width: 100px;
+}
+
+#menu-destacado ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+
+.fotos-destacada {
+    background-image: url("../images/churrasquito.png"), url("../images/comedero.png"), url("../images/Huesito\ juguete.png");
+    background-repeat: no-repeat;
+    background-position: left, center, right;
+    margin: auto;
+    padding: auto;
+    height: 300px;
+    width: 70%;
+}
+
+.contactanos {
+    text-align: center;
+}
+
+section.contactanos h3 {
+    color:#3C2313;
+    font-size: 30px;
+}
+
+.contacto-cliente {
+    background-color: #3C2313;
+    border-radius: 30px;
+    color:white;
+    font-weight: border;
+    height: 25px;
+    width: 300px;
+}
+
+button.boton-gris{
+    background-color:#8A8787;
+    border-radius: 30px;
+    height: auto;
+    width: 100px;
+}
+
+.boton-naranja{
+    background-color: #F0A83E;
+    border-radius: 30px;
+    height: auto;
+    width: 100px;
+}
+
+.enviar-correo {
+    background-color:#F0A83E;
+    color: white;
+    width: 100%;
+    height: 50x;
+    border: 2px solid black;
+
+}
+
+div.enviar-correo h2 {
+    font-size: 20px;
+    text-align: left
+}
+
+.suscribite {
+    text-align: right;
+    background-color: #F0A83E;
+}
+
+#boton-sus{
+    background-color:#3C2313;
+    border-radius: 30%;
+    color:white;
+    height: 60px;
+    width: 80px;
+}
+
+
+div.contacto-informacion{
+    background-color: #3C2313;
+    color:white;
+    width: 100%;
+    text-align: left;
+}
+
+footer p {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+}
