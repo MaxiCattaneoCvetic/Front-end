@@ -1,108 +1,102 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Ramaraja&family=Roboto:ital,wght@0,300;1,700&display=swap");
 
-
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: content-box;
 }
 
-h1{
+h1 {
   padding: 15px;
   color: white;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
-header{
+header {
   background-color: #222222;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  padding:20px;
+  padding: 20px;
 }
 
-footer{
+footer {
   width: 100%;
   height: 150px;
   background-color: #222222;
 }
 
-nav a { color:white;
+nav a {
+  color: white;
   justify-content: space-around;
   margin: 10px;
   font-weight: bold;
   text-decoration: none;
 }
 
-.blanco{
+.blanco {
   color: white;
 }
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
 }
 
-.verde{
+.verde {
   color: green;
 }
 
-.rojo{
-  color:red;
+.rojo {
+  color: red;
 }
 
-
-.contain{
+.contain {
   display: flex;
   justify-content: space-between;
   margin: 50px;
   flex-wrap: wrap;
-
 }
 
-.box1{
+.box1 {
   background-image: url("../img/delivery.jpg");
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   width: 500px;
   height: 300px;
   border: 2px solid black;
-
 }
 
-.box2{
+.box2 {
   width: 500px;
   height: 500px;
 }
 
-.top{
+.top {
   margin: 30px;
   margin-right: 100px;
 }
 
-
-article.podio_pizza{
-  display:flex;
+article.podio_pizza {
+  display: flex;
   align-items: center;
   font-weight: bold;
   font-size: 25px;
-} 
+}
 
-.contain2{
+.contain2 {
   display: flex;
   justify-content: space-between;
   margin: 30px;
 }
 
-
-
-.footer-menu{
+.footer-menu {
   display: flex;
 }
