@@ -47,6 +47,26 @@ header {
   
 }
 
+
+h1::before{
+  content: url("../images/Cat.png");
+  font-size: 3rem;
+}
+
+h1::after{
+  content: url("../images/Dog.png");
+}
+
+.b-comederos:hover{
+  transform: rotate(360deg);
+  transition: 1s;
+  cursor:pointer;
+}
+
+.white{
+  color: white;
+}
+
 .contain1 {
   background-image: url("../images/platocomida-mobil.png");
   background-repeat: no-repeat;
@@ -195,6 +215,28 @@ header {
     color: white;
 }
 
+fieldset{
+  border: transparent;
+}
+
+.box-comment{
+  align-items: center;
+  color: #3C2313;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: center;
+  font-size: 3rem;
+  
+}
+
+textarea{
+  resize: none;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  height: 172px;
+}
 .pre-footer{
   background-color: #f0a83e;
   height: 89px;
@@ -215,6 +257,13 @@ header {
 .sus-title h3{
   font-size: 2rem;
 
+}
+
+.sus-title h3::before {
+  content: url("../images/enviarcorreo.png");
+  position: relative;
+  top: 10px;
+  margin: 0 16px;
 }
 
 img.enviar-correo{
@@ -258,10 +307,22 @@ footer{
   justify-content: space-between;
   align-items: center;
 }
+.mobile h2{
+  font-size: 3rem;
+  text-align: center;
+  padding: 25px;
+}
 
-.logo-footer-d{
-  width: 163px;
-  height: 28px;
+.logo h2 {
+  font-size: 3rem;
+
+}
+.logo h2::before{
+  content: url("../images/Cat.png");
+}
+
+.logo h2::after{
+  content: url("../images/Dog.png");
 }
 
 .logo-footer{
@@ -269,6 +330,14 @@ footer{
   left: 115px;
   margin: 15px;
 }
+
+.mobile h2::before{
+  content: url("../images/Cat.png");
+}
+.mobile h2::after{
+  content: url("../images/Dog.png");
+}
+
 
 .contacto-footer{
   display: flex;
@@ -291,7 +360,16 @@ footer{
     
   }
   .menu-desktop{
-    display: block;
+    display: inline-block;
+  }
+
+  .menu-enlace:visited{
+    color:blue;
+  }
+
+
+  .menu-enlace::before {
+    content: url("../images/pawprint.png");
   }
 
   .contain1{
@@ -322,11 +400,7 @@ footer{
   
 }
 
-.logo-footer-d{
-  width: 163px;
-  height: 28px;
-  margin-right: 66px;
-}
+
 
 .mobile{
   display: none;
